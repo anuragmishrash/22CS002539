@@ -1,0 +1,29 @@
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.local
+client/.env
+server/.env
+
+# Build
+client/dist/
+client/.vite/
+server/coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+server/logs/
+
+# Editor
+.vscode/
+.idea/
+
